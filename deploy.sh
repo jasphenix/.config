@@ -86,10 +86,11 @@ create_symlink() {
     echo "✅ Symlink ensured: $link_name -> $target"
 }
 
-bash ~/.config/agent-tracker/scripts/install_brew_service.sh
+# bash ~/.config/agent-tracker/scripts/install_brew_service.sh
+
 # Create configuration symlinks
-create_symlink "$HOME/.config/.tmux.conf" "$HOME/.tmux.conf" "Tmux"
-create_symlink "$HOME/.config/claude" "$HOME/.claude" "Claude"
-create_symlink "$HOME/.config/codex" "$HOME/.codex" "Codex"
+# create_symlink "$HOME/.config/.tmux.conf" "$HOME/.tmux.conf" "Tmux"
+# create_symlink "$HOME/.config/claude" "$HOME/.claude" "Claude"
+# create_symlink "$HOME/.config/codex" "$HOME/.codex" "Codex"
 
 echo "🎉 Deployment complete!"
