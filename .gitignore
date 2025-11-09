@@ -4,6 +4,7 @@
 
 # ... but these:
 !/i3/
+!/aerospace/
 !/polybar/
 !/ranger/
 ranger/plugins/__pycache__/*
